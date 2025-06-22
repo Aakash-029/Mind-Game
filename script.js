@@ -97,6 +97,8 @@ document.addEventListener("DOMContentLoaded", () => {
     return cardValues;
   };
 
+  const addReg = ()=>{}
+
   const matrixGenerator = (cardValues, size = 4) => {
     gameContainer.innerHTML = "";
     cardValues = [...cardValues, ...cardValues];
